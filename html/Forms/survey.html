@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Survey</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;    
+}
+th {
+  text-align: center;
+}
+</style>
+<body>
+<h1>Please, fill the form</h1>
+<form>
+  <table>
+    <tr>
+      <th>Label</th>
+      <th>Choise</th>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>
+        <input type="text" name="email" placeholder="Enter your e-mail address">
+      </td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>
+        <input type="radio" name="gender" checked>Male<br>
+        <input type="radio" name="gender">Female
+      </td>
+    </tr>
+    <tr>
+      <td>Favorite Fruits</td>
+      <td>
+        Oranges<input type="checkbox" name="oranges"><br>
+        Apples<input type="checkbox" name="apples"><br>
+        Pears<input type="checkbox" name="pears"><br>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="button" value="Send!">
+      </td>
+    </tr>
+  </table>
+</form> 
+</body>
+</html>
