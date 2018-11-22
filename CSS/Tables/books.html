@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>My books</title>
+    <style>
+        th {
+            border-top-style: solid;
+            border-bottom-style: solid;
+            border-top-width: 1px;
+            border-bottom-width: 2px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #e5e7e4;
+        }
+
+        table > tbody > tr:hover {
+            background-color: #c3c9e4;
+        }
+
+        th {
+            text-transform: uppercase;
+        }
+
+        table {
+            font-family: sans-serif monospace;
+            font-size: 25px;
+        }
+    </style>
 </head>
-<style>
-    th {
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-top-width: 1px;
-        border-bottom-width: 2px;
-    }
-
-    tr:nth-child(odd) {
-        background-color: #e5e7e4;
-    }
-
-    table > tbody > tr:hover {
-        background-color: #c3c9e4;
-    }
-
-    th {
-        text-transform: uppercase;
-    }
-
-    table {
-        font-family: sans-serif monospace;
-        font-size: 25px;
-    }
-</style>
 <body>
 <table>
     <tr style="background-color: white;">
