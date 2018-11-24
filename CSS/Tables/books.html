@@ -5,27 +5,43 @@
     <title>My books</title>
     <style>
         th {
+            font-family: monospace;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 20px;
+            text-align: left;
+            padding: 10px;
+            width: 250px;
             border-top-style: solid;
             border-bottom-style: solid;
             border-top-width: 1px;
             border-bottom-width: 2px;
         }
 
+        th:nth-child(3) {
+            width: 90px;
+            text-align: right;
+        }
+
+        tr > * > * {
+            margin: 10px;
+        }
+
+
         tr:nth-child(odd) {
             background-color: #e5e7e4;
         }
 
-        table > tbody > tr:hover {
+        tr:hover {
             background-color: #c3c9e4;
         }
 
-        th {
-            text-transform: uppercase;
+        td {
+            font-size: 20px;
         }
 
-        table {
-            font-family: sans-serif monospace;
-            font-size: 25px;
+        td:nth-child(3) p {
+            text-align: right;
         }
     </style>
 </head>
