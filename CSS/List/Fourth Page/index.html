@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        body {
+            background-color: rgba(247, 247, 247, 1);
+        }
+
         ul {
             list-style: none;
         }
@@ -17,28 +21,38 @@
             height: 100px;
         }
 
-        div#border {
-            background-color: white;
-            height: 100px;
-            width: 100%;
+        .border {
+            background-color: rgba(247, 247, 247, 1);
+            height: 30px;
+            width: 250px;
             position: absolute;
             opacity: 1;
-            top: 50%;
+            top: 70px;
         }
 
-        div#content {
+        li {
             position: relative;
         }
     </style>
 </head>
 <body>
 <div id="content">
-    <div id="border"></div>
     <ul>
-        <li><img alt="Facebook" src="social-pic/Facebook.png"></li>
-        <li><img alt="Twiter" src="social-pic/twiter.png"></li>
-        <li><img alt="Google" src="social-pic/Google+-Logo.png"></li>
-        <li><img alt="linkedin" src="social-pic/linkedin-logo.png"></li>
+        <li>
+            <img alt="Facebook" src="social-pic/Facebook.png">
+            <div class="border"></div>
+        </li>
+        <li>
+            <img alt="Twiter" src="social-pic/twiter.png">
+            <div class="border"></div>
+        </li>
+        <li><img alt="Google" src="social-pic/Google+-Logo.png">
+            <div class="border"></div>
+        </li>
+        <li>
+            <img alt="linkedin" src="social-pic/linkedin-logo.png">
+            <div class="border"></div>
+        </li>
     </ul>
 </div>
 </body>
