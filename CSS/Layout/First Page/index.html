@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <style>
+        body {
+            background-color: #eaebef;
+        }
+
+        div.inner > * {
+            vertical-align: middle;
+        }
+
+        div.outer {
+            width: 200px;
+        }
+
+        body > div > div > img {
+            width: 20px;
+            height: 20px;
+        }
+
+        body > div > div > p {
+            display: inline;
+        }
+
+        div.outer > div.inner {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <p>Преки пътища</p>
+    <div class="inner">
+        <img alt="pic_1" src="pic/Pic_1.png">
+        <p>Malygos - let th...</p>
+        <img alt="pic_5" src="pic/Pic_5.png">
+    </div>
+    <div class="inner">
+        <img alt="pic_2" src="pic/Pic_2.png">
+        <p>CoderDojo</p>
+        <p style="float: right; margin: 0">12</p>
+    </div>
+    <div class="inner">
+        <img alt="pic_3" src="pic/Pic_3.png">
+        <p>Изключи компютъ...</p>
+        <p style="float: right; margin: 0">9</p>
+    </div>
+    <div class="inner">
+        <img alt="pic_4" src="pic/Pic_4.png">
+        <p>ФМИ Пловдив - С...</p>
+    </div>
+</div>
+</body>
+</html>
