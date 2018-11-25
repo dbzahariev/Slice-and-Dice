@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: LAS;
+            src: url(los_angeleno_sans.ttf);
+        }
+
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            /*color: white;*/
+        }
+
+        th {
+            background-color: rgba(76, 176, 80, 0.83);
+            text-align: left;
+            font-size: 30px;
+        }
+
+        th, td > div > p {
+            color: white;
+        }
+
+        td {
+            width: 170px;
+        }
+
+        td > p {
+            text-align: center;
+            font-size: 20px;
+            font-family: LAS, serif;
+        }
+
+        div {
+            background-color: rgba(76, 176, 80, 0.83);
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            margin: 10px;
+            position: relative;
+        }
+
+        div > p:nth-child(1) {
+            font-size: 40px;
+            position: absolute;
+            left: 55px;
+
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th colspan="5">Win money with us!</th>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <p>1</p>
+            </div>
+            <p>First sign up</p>
+        </td>
+        <td>
+            <div><p>2</p></div>
+            <p>Login</p>
+        </td>
+        <td>
+            <div><p>3</p></div>
+            <p>Create Application</p>
+        </td>
+        <td>
+            <div><p>4</p></div>
+            <p>Invite Friends</p>
+        </td>
+        <td>
+            <div><p>5</p></div>
+            <p>Earn money</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
