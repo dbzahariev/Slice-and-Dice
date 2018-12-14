@@ -4,11 +4,11 @@
 }
 
 div#bebas > p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 div#bebas > h1, div#bebas > p:first-letter {
     font-family: bebas, sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.9rem;
 }

@@ -23,7 +23,7 @@ div.outer > div.inner {
     margin-bottom: 8px;
 }
 
-div.inner > p:nth-child(3) {
+.counter {
     float: right;
     margin: 0
 }

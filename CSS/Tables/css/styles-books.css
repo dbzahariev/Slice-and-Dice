@@ -2,7 +2,7 @@ th {
     font-family: monospace;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: left;
     padding: 10px;
     width: 250px;
@@ -31,7 +31,7 @@ tr:hover {
 }
 
 td {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 td:nth-child(3) p {

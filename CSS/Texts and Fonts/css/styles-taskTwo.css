@@ -20,5 +20,5 @@ p {
 p:first-line {
     font-weight: bold;
     line-height: normal;
-    font-size: 23px;
+    font-size: 1.35rem;
 }
