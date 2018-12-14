@@ -1,17 +1,17 @@
 ul:nth-child(1) > li:nth-child(2) {
-    font-size: 18px
+    font-size: 1.2rem;
 }
 
 ul:nth-child(1) > li:nth-child(3) {
-    font-size: 20px
+    font-size: 1.3rem;
 }
 
 ul:nth-child(1) > li:nth-child(4) {
-    font-size: 22px
+    font-size: 1.4rem;
 }
 
 ul:nth-child(1) > li:nth-child(5) {
-    font-size: 24px
+    font-size: 1.5rem;
 }
 
 ul:nth-child(2) {
