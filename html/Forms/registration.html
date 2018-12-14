@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Registration</title>
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for forms">
+    <meta name="keywords" content="HTML,Forms">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
 <body>
-<form>
-  <fieldset>
-  <legend>Registration</legend>
-  Email:
-  <input type="text" name="firstname">
-  <br>
-  Password:
-  <input type="password" name="lastname">
-  <br>
-  Re-Password:
-  <input type="password" name="lastname">
-  <br>
-  <input type="submit" value="Register!">
-  </fieldset>
-</form> 
+<form action="registration.html" method="post">
+    <fieldset>
+        <legend>Registration</legend>
+        <label>Email:
+            <input type="text" name="firstname">
+        </label>
+        <label>Password:
+            <input type="password" name="lastname">
+        </label>
+        <label>Re-Password:
+            <input type="password" name="lastname">
+        </label>
+        <input type="submit" value="Register!">
+    </fieldset>
+</form>
 </body>
 </html>

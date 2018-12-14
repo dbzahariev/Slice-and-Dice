@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Page</title>
+<head>
+    <title>Tables</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for Tables">
+    <meta name="keywords" content="HTML, Tables">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
 <style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 10px;
-    text-align: left;    
-}
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    hr {
+        margin-top: 20px;
+    }
 </style>
 <body>
 <p>Assignment 1:</p>
 <table>
-  <tr>
-    <th>Name:</th>
-    <th>Email:</th>
-  </tr>
-  <tr>
-    <td>Jhon Doe</td>
-    <td>jhondoe@jd.com</td>
-  </tr>
-  <tr>
-    <td>Janin Doe</td>
-    <td>janindoe@jd.com</td>
-  </tr>
-  <tr>
-    <td>Julian Doe</td>
-    <td>juliandoe@jd.com</td>
-  </tr>
-  <tr>
-    <td>Jane Doe</td>
-    <td>janedoe@jd.com</td>
-  </tr>
+    <thead>
+    <tr>
+        <th>Name:</th>
+        <th>Email:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Jhon Doe</td>
+        <td>jhondoe@jd.com</td>
+    </tr>
+    <tr>
+        <td>Janin Doe</td>
+        <td>janindoe@jd.com</td>
+    </tr>
+    <tr>
+        <td>Julian Doe</td>
+        <td>juliandoe@jd.com</td>
+    </tr>
+    <tr>
+        <td>Jane Doe</td>
+        <td>janedoe@jd.com</td>
+    </tr>
+    </tbody>
 </table>
-<br>
 <hr>
-<br>
-
 
 <p>Assignment 2:</p>
 <table>
-  <tr>
-    <th rowspan="2">Name</th>
-    <th rowspan="2">Email</th>
-    <th colspan="2" style="text-align: center;">Phone</th>
-  </tr>
-  <tr>
-    <th>Business</th>
-    <th>Personal</th>
-  </tr>
-  <tr>
-    <td>Jhon Doe</td>
-    <td>jhon@doe.com</td>
-    <td>+35987878787</td>
-    <td>+35955555555</td>
-  </tr>
-  <tr>
-    <td>Jhon Doe</td>
-    <td>jhon@doe.com</td>
-    <td>+35987878787</td>
-    <td>+35955555555</td>
-  </tr>
-  <tr>
-    <td>Jhon Doe</td>
-    <td>jhon@doe.com</td>
-    <td>+35987878787</td>
-    <td>+35955555555</td>
-  </tr>
+    <thead>
+    <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Email</th>
+        <th colspan="2" style="text-align: center;">Phone</th>
+    </tr>
+    <tr>
+        <th>Business</th>
+        <th>Personal</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Jhon Doe</td>
+        <td>jhon@doe.com</td>
+        <td>+35987878787</td>
+        <td>+35955555555</td>
+    </tr>
+    <tr>
+        <td>Jhon Doe</td>
+        <td>jhon@doe.com</td>
+        <td>+35987878787</td>
+        <td>+35955555555</td>
+    </tr>
+    <tr>
+        <td>Jhon Doe</td>
+        <td>jhon@doe.com</td>
+        <td>+35987878787</td>
+        <td>+35955555555</td>
+    </tr>
+    </tbody>
 </table>
-<br>
 <hr>
-<br>
-
 
 <p>Assignment 3:</p>
 <table>
-  <tr>
-    <th>Car Brand</th>
-    <th>Car Model</th>
-    <th>Image</th>
-  </tr>
-  <tr>
-    <td><a href="https://www.audi.com/en.html">Audi</td>
-    <td>TT</td>
-    <td><img height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2007_Audi_TT_Coupe.JPG/250px-2007_Audi_TT_Coupe.JPG"</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.nissanusa.com/">Nissan</td>
-    <td>Skyline</td>
-    <td><img height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/V35.jpg/200px-V35.jpg"</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.tesla.com/">Tesla</td>
-    <td>X</td>
-    <td><img height="150" src="https://boygeniusreport.files.wordpress.com/2017/12/tesla-model-x-black.jpg?quality=98&strip=all&w=1200"</td>
-  </tr>
+    <thead>
+    <tr>
+        <th>Car Brand</th>
+        <th>Car Model</th>
+        <th>Image</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><a href="https://www.audi.com/en.html">Audi</a></td>
+        <td>TT</td>
+        <td><img height="150" alt="Audi - TT"
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2007_Audi_TT_Coupe.JPG/250px-2007_Audi_TT_Coupe.JPG">
+        </td>
+    </tr>
+    <tr>
+        <td><a href="https://www.nissanusa.com/">Nissan</a></td>
+        <td>Skyline</td>
+        <td><img height="150" alt="Nisan - Skyline"
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/V35.jpg/200px-V35.jpg"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.tesla.com/">Tesla</a></td>
+        <td>X</td>
+        <td><img height="150" alt="Tesla - X"
+                 src="https://boygeniusreport.files.wordpress.com/2017/12/tesla-model-x-black.jpg?quality=98&strip=all&w=1200">
+        </td>
+    </tr>
+    </tbody>
 </table>
 </body>
 </html>

@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="us">
-<meta charset="utf-8">
-<title>Youtube Basic Info</title>
+<head>
+    <title>Youtube Basic Info</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for forms">
+    <meta name="keywords" content="HTML,Forms">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
 <body>
 <style>
-h3 {
-    margin: 1px;
-}
-hr {
-}
+    h3 {
+        margin: 1px;
+    }
 </style>
-<form>
-  <h1>Разширени настройки</h1>
-  <hr>
-  <h3>Коментари</h3>
-  <input type="checkbox" checked> Разширяване на коментари
-  <select style="width:90px" aria-label="инструмент за избор на вид на коментар">
-    <option value="all" selected="">Всички</option>
-    <option value="auto">Всички с изключение на потенциално неуместни коментари</option>
-    <option value="approval">Одобрени</option>
-  </select>
-  <br>
-  <input type="checkbox"> Потребителите могат да виждат оценките
-  <hr>
-  <h3 class="license-header">Собственост върху лиценза и правата</h3>
-  <select class="yt-uix-form-input-select-element license-input" name="reuse">  
-    <option value="all_rights_reserved" selected="">Стандартен лиценз за YouTube</option>
-    <option value="creative_commons">„Криейтив комънс“ – Признание</option>
-  </select>
-  <hr style="height:0px">
-  <h3 class="metadata-syndication-disabled syndication-header">Синдикиране</h3>
+<form action="youtubeAdvanced.html" method="post">
+    <h1>Разширени настройки</h1>
+    <hr>
+    <h3>Коментари</h3>
+    <label>Разширяване на коментари
+        <input type="checkbox" checked>
+    </label>
+    <label>
+        <select style="width:90px" aria-label="инструмент за избор на вид на коментар">
+            <option value="all" selected="">Всички</option>
+            <option value="auto">Всички с изключение на потенциално неуместни коментари</option>
+            <option value="approval">Одобрени</option>
+        </select>
+    </label>
+    <label style="display: block">Потребителите могат да виждат оценките
+        <input type="checkbox">
+    </label>
+    <hr>
+    <h3 class="license-header">Собственост върху лиценза и правата</h3>
+    <label>
+        <select class="yt-uix-form-input-select-element license-input" name="reuse">
+            <option value="all_rights_reserved" selected="">Стандартен лиценз за YouTube</option>
+            <option value="creative_commons">„Криейтив комънс“ – Признание</option>
+        </select>
+    </label>
+    <hr style="height:0">
+    <h3 class="metadata-syndication-disabled syndication-header">Синдикиране</h3>
 
-<label>
-  <span><input type="radio" name="syndication" checked="checked" value="everywhere" ></span>Навсякъде
-</label>
-<br>
-<label>
-  <span><input type="radio" name="syndication" value="monetized" ></span>Платформи, осигуряващи приходи
-</label>
-<br>
-<hr>
-<h3 style="display: inline">Дата на записа</h3>
-<input type="text" placeholder="mm/dd/yyyy">
-<input type="button" value="Днес">
-<br>
-<input type="button" value="Запзване на промените">
-<br>
-<hr>
-Забележка: Правя още едно поле за дата на записа, защото на моя браузер не ми излиза зададеният формат на датата.
-<br>
-<h3 style="display: inline">Дата на записа</h3>
-<input type="date">
-<input type="button" value="Днес">
-<br>
-<input type="button" value="Запзване на промените">
+    <label>
+        <span><input type="radio" name="syndication" checked="checked" value="everywhere"></span>Навсякъде
+    </label>
+    <label>
+        <span><input type="radio" name="syndication" value="monetized"></span>Платформи, осигуряващи приходи
+    </label>
+    <hr>
+    <h3 style="display: inline">Дата на записа</h3>
+    <input type="text" placeholder="mm/dd/yyyy">
+    <input type="button" value="Днес">
+    <input style="display: block;" type="button" value="Запзване на промените">
+    <hr>
+    <p>Забележка: Правя още едно поле за дата на записа, защото на моя браузер не ми излиза зададеният формат на
+        датата.</p>
+    <h3 style="display: inline">Дата на записа</h3>
+    <label>
+        <input type="date">
+    </label>
+    <input type="button" value="Днес">
+    <input style="display: block;" type="button" value="Запзване на промените">
 </form>
 </body>
 </html>

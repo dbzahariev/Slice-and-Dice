@@ -1,65 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Page</title>
+<head>
+    <title>Inline and Block Elements</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for Inline and Block Elements">
+    <meta name="keywords" content="HTML, Inline and Block Elements">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
+<style>
+    fieldset:nth-child(3) > fieldset, fieldset:nth-child(2) > fieldset {
+        display: inline;
+    }
+</style>
 <body>
 <fieldset>
-<legend>Block Elements</legend>
-<p style="border: 1px solid red;">
-This is &lt;paragraph&gt; - block element
-</p>
-<hr>
-<blockquote style="border: 1px solid red;">
-This is &lt;blockquote&gt; - block element
-</blockquote>
-<hr>
-<ul style="border: 1px solid red;">This is &lt;ul&gt; - unordered list - block element
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-</ul>
-<hr>
-<p style="border: 1px solid red; white-space: pre;">
-This is &lt;pre&gt;
-block-element
-</p>
-<hr color="red">This is &lt;hr&gt; - block element
+    <legend>Block Elements</legend>
+    <p style="border: 1px solid red;">
+        This is &lt;paragraph&gt; - block element
+    </p>
+    <hr>
+    <blockquote style="border: 1px solid red;">
+        This is &lt;blockquote&gt; - block element
+    </blockquote>
+    <hr>
+    <ul style="border: 1px solid red;">This is &lt;ul&gt; - unordered list - block element
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    <hr>
+    <p style="border: 1px solid red; white-space: pre;">
+        This is &lt;pre&gt;
+        block-element
+    </p>
+    <hr color="red">
+    This is &lt;hr&gt; - block element
 </fieldset>
 
-<br>
 <fieldset>
-<legend>Inline Elements</legend>
-<fieldset style="display:inline">
-  <a href="#">This is &lt;a&gt; - inline element</a>
+    <legend>Inline Elements</legend>
+    <fieldset>
+        <a href="#">This is &lt;a&gt; - inline element</a>
+    </fieldset>
+
+    <fieldset>
+        <button type="button">This is &lt;button&gt; - inline element</button>
+    </fieldset>
+
+    <fieldset>
+        <img src="https://downloadpng.com/wp-content/uploads/2018/08/cat.png" alt="Cat" height="42" width="62">This is
+        &lt;img&gt; - inline element
+    </fieldset>
+
+    <fieldset>
+        <em>This is &lt;em&gt; - inline element</em>
+    </fieldset>
+
+    <fieldset>
+        <strong>This is &lt;strong&gt; - inline element</strong>
+    </fieldset>
 </fieldset>
 
-<fieldset style="display:inline">
-  <button type="button">This is &lt;button&gt; - inline element</button>
-</fieldset>
-
-<fieldset style="display:inline">
-  <img src="https://downloadpng.com/wp-content/uploads/2018/08/cat.png" alt="Cat" height="42" width="62">This is &lt;img&gt; - inline element
-</fieldset>
-<br>
-<br>
-
-<fieldset style="display:inline">
-  <em>This is &lt;em&gt; - inline element</em>
-</fieldset>
-
-<fieldset style="display:inline">
-<strong>This is &lt;strong&gt; - inline element</strong>
-</fieldset>
-</fieldset>
-
-<br>
 <fieldset>
-<legend>Inline-Block Elements</legend>
-<div style="background-color: rgb(255, 0, 0); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; - inline-block element</div>
-<div style="background-color: hsl(90, 100%, 50%); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; - inline-block element</div>
-<div style="background-color: yellow; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; - inline-block element</div>
-<div style="background-color: blue; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; - inline-block element</div>
-<div style="background-color: #DEB887; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; - inline-block element</div>
+    <legend>Inline-Block Elements</legend>
+    <div style="background-color: rgb(255, 0, 0); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt;
+        - inline-block element
+    </div>
+    <div style="background-color: hsl(90, 100%, 50%); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt;
+        - inline-block element
+    </div>
+    <div style="background-color: yellow; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+        inline-block element
+    </div>
+    <div style="background-color: blue; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+        inline-block element
+    </div>
+    <div style="background-color: #DEB887; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+        inline-block element
+    </div>
 </fieldset>
 </body>
 </html>

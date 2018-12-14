@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Comments</title>
+<head>
+    <title>Forms - comment</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for forms">
+    <meta name="keywords" content="HTML,Forms">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
+<style>
+    label {
+        display: block;
+    }
+</style>
 <body>
-  <p>You can add your comment!</p>
-  <form>
-    Full Name:
-    <input type="text" placeholder="Enter your name here">
-    <br>
-    Email:
-    <input type="text" placeholder="Enter your e-mail here">
-    <br>
-    Comment:
-    <textarea rows="10" cols="30" name="comment"></textarea>
-    <br>
+<p>You can add your comment!</p>
+<form action="comment.html" method="post">
+    <label>Full Name:
+        <input name="fullName" type="text" placeholder="Enter your name here">
+    </label>
+    <label>Email:
+        <input name="email" type="text" placeholder="Enter your e-mail here">
+    </label>
+    <label>Comment:
+        <textarea rows="10" cols="30" name="comment"></textarea>
+    </label>
     <input type="submit" value="Send!">
-  </form> 
+</form>
 </body>
 </html>

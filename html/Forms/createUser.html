@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Create User</title>
+<head>
+    <title>Create User</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignments for forms">
+    <meta name="keywords" content="HTML,Forms">
+    <meta name="author" content="Dimitar Zahariev">
+</head>
+<style>
+    .Section > label {
+        display: block;
+    }
+</style>
 <body>
 <h1>Create new user</h1>
-<form>
+<form action="createUser.html" method="post">
     User name:
     <input type="text" placeholder="Enter your name here">
-    <br>
     Email:
     <input type="text" placeholder="Enter your e-mail here">
-    <br>
     <h2>Upload photo</h2>
     <input type="file">
-    <br>
-    <h2>Teams</h2>
-    Team1<input type="checkbox"><br>
-    Team2<input type="checkbox"><br>
-    Team3<input type="checkbox"><br>
-    <br>
+    <section class="Section">
+        <h2>Teams</h2>
+        <label>Team1
+            <input name="teams" value="team1" type="checkbox">
+        </label>
+        <label>Team2
+            <input name="teams" value="team2" type="checkbox">
+        </label>
+        <label>Team3
+            <input name="teams" value="team3" type="checkbox">
+        </label>
+    </section>
+    <section class="Section">
+        <h2>Position</h2>
+        <label>Position1
+            <input value="position1" type="radio" name="position">
+        </label>
+        <label>Position2
+            <input value="position2" type="radio" name="position">
+        </label>
+        <label>Position3
+            <input value="position3" type="radio" name="position">
+        </label>
+    </section>
     <h2>Position</h2>
-    Position1<input type="radio" name="position"><br>
-    Position2<input type="radio" name="position"><br>
-    Position3<input type="radio" name="position"><br>
-    <br>
-    <h2>Position</h2>
-    <select name="role" size="4">
-        <option value="admin">Admin</option>
-        <option value="moderator">Moderator</option>
-        <option value="user">User</option>
-    </select>
-    <br>
-    <input type="submit" value="Create!">
+    <label>
+        <select name="role" size="4">
+            <option name="role" value="admin">Admin</option>
+            <option name="role" value="moderator">Moderator</option>
+            <option name="role" value="user">User</option>
+        </select>
+    </label>
+    <input style="display: block;" type="submit" value="Create!">
 </form>
 </body>
 </html>

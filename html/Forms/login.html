@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<title>Login</title>
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Assignments for forms">
+  <meta name="keywords" content="HTML,Forms">
+  <meta name="author" content="Dimitar Zahariev">
+</head>
 <body>
-<form>
-  Username:
-  <input type="text" name="firstname">
-  <br>
-  Password:
-  <input type="password" name="lastname">
-  <br>
-  <input type="submit" value="Login">
+<form action="login.html" method="post">
+  <label>Username:
+    <input type="text" name="firstname">
+  </label>
+  <label>Password:
+    <input type="password" name="lastname">
+  </label>
+  <input style="display: block" type="submit" value="Login">
 </form> 
 </body>
 </html>
