@@ -22,3 +22,8 @@ body > div > div > p {
 div.outer > div.inner {
     margin-bottom: 8px;
 }
+
+div.inner > p:nth-child(3) {
+    float: right;
+    margin: 0
+}

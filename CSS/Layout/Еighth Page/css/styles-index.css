@@ -1,7 +1,6 @@
 td > img {
     width: 200px;
     height: 250px;
-    /*opacity: 0.6;*/
 }
 
 table > tbody > tr > td:nth-child(1) > img {

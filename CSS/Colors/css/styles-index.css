@@ -1,0 +1,37 @@
+h1:nth-child(1) {
+    border: 1px solid blue;
+    color: red;
+}
+
+h1:nth-child(2) {
+    color: green;
+    border: 1px solid red;
+}
+
+h1:nth-child(3) {
+    color: blue;
+    border: 1px solid green;
+}
+
+div {
+    height: 80px;
+}
+
+div:nth-child(1) {
+    background-color: rgba(22, 55, 154, 1);
+}
+
+
+div:nth-child(2) {
+    background-color: rgba(22, 55, 154, 0.75);
+}
+
+
+div:nth-child(3) {
+    background-color: rgba(22, 55, 154, 0.5);
+}
+
+
+div:nth-child(4) {
+    background-color: rgba(22, 55, 154, 0.25);
+}

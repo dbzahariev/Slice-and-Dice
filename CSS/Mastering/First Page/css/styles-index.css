@@ -75,3 +75,11 @@ button {
     margin-bottom: 30px;
     margin-top: 3px;
 }
+
+.fourth-section > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
+    font-size: 20px;
+}
+
+.fourth-section > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+    font-size: 10px;
+}
