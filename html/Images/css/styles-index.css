@@ -1,0 +1,26 @@
+ol > li {
+    display: inline-block;
+    border: 1px solid red;
+    margin-right: 10px;
+}
+
+#externalImage > li > a > img {
+    width: 100px;
+    height: 100px;
+}
+
+#Ass3 > li > a > img, #wikipediaEnimal > li > a > img {
+    height: 100px;
+}
+
+.Ass4 {
+    height: 400px;
+}
+
+picture > source:nth-child(1), picture > source:nth-child(2), picture > img {
+    height: 300px;
+}
+
+picture > img {
+    width: auto;
+}

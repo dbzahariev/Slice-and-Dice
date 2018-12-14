@@ -6,27 +6,8 @@
     <meta name="description" content="Assignments for images">
     <meta name="keywords" content="HTML,images">
     <meta name="author" content="Dimitar Zahariev">
+    <link href="css/styles-index.css" rel="stylesheet"/>
 </head>
-<style>
-    ol > li {
-        display: inline-block;
-        border: 1px solid red;
-        margin-right: 10px;
-    }
-
-    #externalImage > li > a > img {
-        width: 100px;
-        height: 100px;
-    }
-
-    #Ass3 > li > a > img, #wikipediaEnimal > li > a > img {
-        height: 100px;
-    }
-
-    .Ass4 {
-        height: 400px;
-    }
-</style>
 <body>
 <p>Assignment 1:</p>
 <ol id="externalImage">
@@ -153,9 +134,9 @@ Note: To follow the link click on the picture.
 
 <p>Assignment 5:</p>
 <picture>
-    <source style="height: 300px" media="(min-width: 1000px)" srcset="img/cat.jpg">
-    <source style="height: 300px" media="(min-width: 500px)" srcset="img/dog.jpg">
-    <img style="height: 300px; width: auto;" src="img/papgal.jpg" alt="Animals">
+    <source media="(min-width: 1000px)" srcset="img/cat.jpg">
+    <source media="(min-width: 500px)" srcset="img/dog.jpg">
+    <img src="img/papgal.jpg" alt="Animals">
 </picture>
 <p>Note: To change the picture, please resize the width of the window.</p>
 </body>

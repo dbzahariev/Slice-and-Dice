@@ -1,0 +1,16 @@
+body > form:nth-child(1) > input, label {
+    display: block;
+}
+
+textarea {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.share > img {
+    width: 17px;
+}
+
+label > select {
+    margin-top: 16px;
+}

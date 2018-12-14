@@ -6,13 +6,9 @@
     <meta name="description" content="Assignments for forms">
     <meta name="keywords" content="HTML,Forms">
     <meta name="author" content="Dimitar Zahariev">
+    <link href="css/styles-youtubeAdvanced.css" rel="stylesheet"/>
 </head>
 <body>
-<style>
-    h3 {
-        margin: 1px;
-    }
-</style>
 <form action="youtubeAdvanced.html" method="post">
     <h1>Разширени настройки</h1>
     <hr>
@@ -21,13 +17,13 @@
         <input type="checkbox" checked>
     </label>
     <label>
-        <select style="width:90px" aria-label="инструмент за избор на вид на коментар">
+        <select aria-label="инструмент за избор на вид на коментар">
             <option value="all" selected="">Всички</option>
             <option value="auto">Всички с изключение на потенциално неуместни коментари</option>
             <option value="approval">Одобрени</option>
         </select>
     </label>
-    <label style="display: block">Потребителите могат да виждат оценките
+    <label>Потребителите могат да виждат оценките
         <input type="checkbox">
     </label>
     <hr>
@@ -38,7 +34,7 @@
             <option value="creative_commons">„Криейтив комънс“ – Признание</option>
         </select>
     </label>
-    <hr style="height:0">
+    <hr>
     <h3 class="metadata-syndication-disabled syndication-header">Синдикиране</h3>
 
     <label>
@@ -48,19 +44,19 @@
         <span><input type="radio" name="syndication" value="monetized"></span>Платформи, осигуряващи приходи
     </label>
     <hr>
-    <h3 style="display: inline">Дата на записа</h3>
+    <h3>Дата на записа</h3>
     <input type="text" placeholder="mm/dd/yyyy">
     <input type="button" value="Днес">
-    <input style="display: block;" type="button" value="Запзване на промените">
+    <input type="button" value="Запзване на промените">
     <hr>
     <p>Забележка: Правя още едно поле за дата на записа, защото на моя браузер не ми излиза зададеният формат на
         датата.</p>
-    <h3 style="display: inline">Дата на записа</h3>
+    <h3>Дата на записа</h3>
     <label>
         <input type="date">
     </label>
     <input type="button" value="Днес">
-    <input style="display: block;" type="button" value="Запзване на промените">
+    <input type="button" value="Запзване на промените">
 </form>
 </body>
 </html>

@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+thead > tr:nth-child(1) > th:nth-child(3) {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+h3 {
+    margin: 1px;
+}
+
+body > form:nth-child(2) > label:nth-child(6) {
+    display: block;
+}
+
+body > form:nth-child(2) > hr:nth-child(10) {
+    height: 0;
+}
+
+body > form:nth-child(2) > label:nth-child(5) > select:nth-child(1) {
+    width: 90px;
+}
+
+body > form:nth-child(2) > h3:nth-child(15), body > form:nth-child(2) > h3:nth-child(21) {
+    display: inline;
+}
+
+body > form:nth-child(2) > input:nth-child(18), body > form:nth-child(2) > input:nth-child(24) {
+    display: block;
+}

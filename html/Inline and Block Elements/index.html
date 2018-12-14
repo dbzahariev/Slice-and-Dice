@@ -6,30 +6,26 @@
     <meta name="description" content="Assignments for Inline and Block Elements">
     <meta name="keywords" content="HTML, Inline and Block Elements">
     <meta name="author" content="Dimitar Zahariev">
+    <link href="css/styles-index.css" rel="stylesheet"/>
 </head>
-<style>
-    fieldset:nth-child(3) > fieldset, fieldset:nth-child(2) > fieldset {
-        display: inline;
-    }
-</style>
 <body>
 <fieldset>
     <legend>Block Elements</legend>
-    <p style="border: 1px solid red;">
+    <p class="border">
         This is &lt;paragraph&gt; - block element
     </p>
     <hr>
-    <blockquote style="border: 1px solid red;">
+    <blockquote class="border">
         This is &lt;blockquote&gt; - block element
     </blockquote>
     <hr>
-    <ul style="border: 1px solid red;">This is &lt;ul&gt; - unordered list - block element
+    <ul class="border">This is &lt;ul&gt; - unordered list - block element
         <li>First item</li>
         <li>Second item</li>
         <li>Third item</li>
     </ul>
     <hr>
-    <p style="border: 1px solid red; white-space: pre;">
+    <p class="border">
         This is &lt;pre&gt;
         block-element
     </p>
@@ -63,19 +59,19 @@
 
 <fieldset>
     <legend>Inline-Block Elements</legend>
-    <div style="background-color: rgb(255, 0, 0); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt;
+    <div>This is &lt;div&gt;
         - inline-block element
     </div>
-    <div style="background-color: hsl(90, 100%, 50%); display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt;
+    <div>This is &lt;div&gt;
         - inline-block element
     </div>
-    <div style="background-color: yellow; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+    <div>This is &lt;div&gt; -
         inline-block element
     </div>
-    <div style="background-color: blue; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+    <div>This is &lt;div&gt; -
         inline-block element
     </div>
-    <div style="background-color: #DEB887; display: inline-block; width: 250px; height: 50px;">This is &lt;div&gt; -
+    <div>This is &lt;div&gt; -
         inline-block element
     </div>
 </fieldset>
