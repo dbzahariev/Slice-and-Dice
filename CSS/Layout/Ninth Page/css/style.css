@@ -1,0 +1,46 @@
+@font-face {
+    font-family: LAS;
+    src: url(../los_angeleno_sans.ttf);
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*color: white;*/
+}
+
+th {
+    background-color: rgba(76, 176, 80, 0.83);
+    text-align: left;
+    font-size: 30px;
+}
+
+th, td > div > p {
+    color: white;
+}
+
+td {
+    width: 170px;
+}
+
+td > p {
+    text-align: center;
+    font-size: 20px;
+    font-family: LAS, serif;
+}
+
+div {
+    background-color: rgba(76, 176, 80, 0.83);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+}
+
+div > p:nth-child(1) {
+    font-size: 40px;
+    position: absolute;
+    left: 55px;
+
+}

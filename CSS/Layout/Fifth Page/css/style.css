@@ -1,0 +1,48 @@
+@font-face {
+    font-family: CustomFont;
+    src: url("../Public/OCR_A_Std_Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.item {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.item > div {
+    display: inline-block;
+}
+
+div.content > p.text {
+    margin: 0;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.item > img {
+    margin: 10px 10px 5px;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    vertical-align: top;
+}
+
+.content {
+    font-family: CustomFont, serif;
+    position: relative;
+}

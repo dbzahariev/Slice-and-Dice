@@ -1,0 +1,9 @@
+div#serif > p:nth-child(1) {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+div#serif > p:nth-child(2) {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

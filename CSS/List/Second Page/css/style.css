@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 6px;
+}
+
+ul > li {
+    margin-top: 15px;
+}
+
+ul > li > img {
+    height: 20px;
+    width: 20px;
+}
+
+ul > li > span {
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #26a6ef;
+}
+
+nav > img, nav > p, nav > span {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+nav > img {
+    margin-left: 4px;
+}
+
+nav > span > a {
+    color: white;
+}
+
+ul > li > span {
+    display: inline-block;
+    background-position: left;
+}
+
+ul > li > span {
+    margin-left: 25px;
+}
+
+ul > li:nth-child(1) {
+    background: url("../Category-pic/Telefoni.png") no-repeat;
+}
+
+ul > li:nth-child(2) {
+    background: url("../Category-pic/Computri.png") no-repeat;
+}
+
+ul > li:nth-child(3) {
+    background: url("../Category-pic/TV.png") no-repeat;
+}
+
+ul > li:nth-child(4) {
+    background: url("../Category-pic/Golemi_elektrouredi.png") no-repeat;
+}
+
+ul > li:nth-child(5) {
+    background: url("../Category-pic/Malki_elektrouredi.png") no-repeat;
+}
+
+ul > li:nth-child(6) {
+    background: url("../Category-pic/Moda.png") no-repeat;
+}
+
+ul > li:nth-child(7) {
+    background: url("../Category-pic/Zdrave.png") no-repeat;
+}
+
+ul > li:nth-child(8) {
+    background: url("../Category-pic/Dom.png") no-repeat;
+}
+
+ul > li:nth-child(9) {
+    background: url("../Category-pic/Knigi.png") no-repeat;
+}
+
+ul > li:nth-child(10) {
+    background: url("../Category-pic/Igrachki.png") no-repeat;
+}
+
+ul > li:nth-child(11) {
+    background: url("../Category-pic/Sport.png") no-repeat;
+}
+
+ul > li:nth-child(12) {
+    background: url("../Category-pic/Avto.png") no-repeat;
+}
+
+ul > li:nth-child(13) {
+    background: url("../Category-pic/Hrani.png") no-repeat;
+}
