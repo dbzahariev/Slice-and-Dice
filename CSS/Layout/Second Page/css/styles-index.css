@@ -33,7 +33,7 @@ footer > img {
     float: right;
 }
 
-#outer > img:nth-child(2) {
+.big-pictures {
     height: 30%;
     width: 100%;
 }

@@ -10,12 +10,12 @@ header {
 }
 
 
-section:nth-child(1) .move {
-    width: 100px;
+section.technology .move {
+    width: 33%;
 }
 
-section:nth-child(2) .move {
-    width: 120px;
+section.environment .move {
+    width: 36%;
 }
 
 section {
@@ -77,14 +77,6 @@ section:nth-child(odd) > .down > .title {
 
 .title {
     font-weight: bold;
-}
-
-section:nth-child(1) .move {
-    width: 100px;
-}
-
-section:nth-child(2) .move {
-    width: 120px;
 }
 
 .posts-title {

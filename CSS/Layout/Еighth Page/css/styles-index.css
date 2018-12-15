@@ -1,27 +1,19 @@
 td > img {
-    width: 200px;
-    height: 250px;
+    width: 10rem;
+    height: 12rem;
 }
 
-table > tbody > tr > td:nth-child(1) > img {
+td > img {
+    opacity: 0.6;
+}
+
+td > img:hover {
     opacity: 1;
-}
-
-table > tbody > tr > td:nth-child(2) > img {
-    opacity: 0.6;
-}
-
-table > tbody > tr > td:nth-child(3) > img {
-    opacity: 0.6;
-}
-
-table > tbody > tr > td:nth-child(4) > img {
-    opacity: 0.5;
 }
 
 td {
     display: inline-block;
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid silver;
 }
 

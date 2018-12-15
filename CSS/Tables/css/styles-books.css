@@ -12,13 +12,12 @@ th {
     border-bottom-width: 2px;
 }
 
-th:nth-child(3) {
-    width: 90px;
+.number {
     text-align: right;
 }
 
-tr > th {
-    margin: 10px;
+th {
+    width: 15rem;
 }
 
 
@@ -32,10 +31,6 @@ tr:hover {
 
 td {
     font-size: 1.2rem;
-}
-
-td:nth-child(3) p {
-    text-align: right;
 }
 
 thead > tr > th {

@@ -4,7 +4,7 @@ h1 {
     margin-left: 50px;
 }
 
-h1:nth-child(2) {
+h1.crossed {
     float: right;
     display: inline;
     text-decoration: line-through;

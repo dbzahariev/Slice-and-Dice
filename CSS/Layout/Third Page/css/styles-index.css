@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.info > p:nth-child(3) {
+p.price {
     margin-top: 5px;
 }
 
@@ -35,15 +35,11 @@
     vertical-align: middle;
 }
 
-.rating > p:nth-child(2) {
+.rating-type {
     color: #1b8b67;
 }
 
-.rating > p:nth-child(3) {
-    color: #969696;
-}
-
-.info > p:nth-child(2) {
+.review, .place {
     color: #969696;
 }
 
