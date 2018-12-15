@@ -1,19 +1,23 @@
-ul:nth-child(1) > li:nth-child(2) {
+ul.for-connection > li.face {
     font-size: 1.2rem;
 }
 
-ul:nth-child(1) > li:nth-child(3) {
+ul.for-connection > li.twi {
     font-size: 1.3rem;
 }
 
-ul:nth-child(1) > li:nth-child(4) {
+ul.for-connection > li.inst {
     font-size: 1.4rem;
 }
 
-ul:nth-child(1) > li:nth-child(5) {
+ul.for-connection > li.link {
     font-size: 1.5rem;
 }
 
-ul:nth-child(2) {
+ul.for-connection > li.redd {
+    font-size: 1.6rem;
+}
+
+ul.old-task {
     list-style-type: square;
 }
