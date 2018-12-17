@@ -10,12 +10,12 @@ div.outer {
     width: 200px;
 }
 
-body > div > div > img {
+div > div > img {
     width: 20px;
     height: 20px;
 }
 
-body > div > div > p {
+div > div > p {
     display: inline;
 }
 
