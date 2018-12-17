@@ -2,22 +2,22 @@ h3 {
     margin: 1px;
 }
 
-body > form > label:nth-child(6) {
+form > label:nth-child(6) {
     display: block;
 }
 
-body > form > hr:nth-child(10) {
+form > hr:nth-child(10) {
     height: 0;
 }
 
-body > form > label:nth-child(5) > select:nth-child(1) {
+form > label:nth-child(5) > select:nth-child(1) {
     width: 90px;
 }
 
-body > form > h3:nth-child(15), body > form:nth-child(2) > h3:nth-child(21) {
+form > h3:nth-child(15), form:nth-child(2) > h3:nth-child(21) {
     display: inline;
 }
 
-body > form > input:nth-child(18), body > form:nth-child(2) > input:nth-child(24) {
+form > input:nth-child(18), form:nth-child(2) > input:nth-child(24) {
     display: block;
 }

@@ -10,28 +10,28 @@ fieldset:nth-child(1) > p:nth-child(8) {
     white-space: pre;
 }
 
-body > fieldset:nth-child(3) > div {
+fieldset:nth-child(3) > div {
     display: inline-block;
     width: 250px;
     height: 50px;
 }
 
-body > fieldset:nth-child(3) > div:nth-child(2) {
+fieldset:nth-child(3) > div:nth-child(2) {
     background-color: red;
 }
 
-body > fieldset:nth-child(3) > div:nth-child(3) {
+fieldset:nth-child(3) > div:nth-child(3) {
     background-color: lime;
 }
 
-body > fieldset:nth-child(3) > div:nth-child(4) {
+fieldset:nth-child(3) > div:nth-child(4) {
     background-color: yellow;
 }
 
-body > fieldset:nth-child(3) > div:nth-child(5) {
+fieldset:nth-child(3) > div:nth-child(5) {
     background-color: blue;
 }
 
-body > fieldset:nth-child(3) > div:nth-child(6) {
+fieldset:nth-child(3) > div:nth-child(6) {
     background-color: burlywood;
 }

@@ -2,6 +2,6 @@
     display: block;
 }
 
-body > form:nth-child(2) > input:nth-child(9) {
+input[type=submit] {
     display: block;
 }
